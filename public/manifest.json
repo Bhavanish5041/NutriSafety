@@ -1,0 +1,16 @@
+{
+  "name": "NutriShield AI",
+  "short_name": "NutriShield",
+  "description": "AI-powered food compliance and personalized nutrition advisor.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fbf6",
+  "theme_color": "#c9f4d2",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

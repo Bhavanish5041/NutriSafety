@@ -1,0 +1,17 @@
+[
+  {
+    "ingredient": "potassium bromate",
+    "status": "Restricted",
+    "notes": "Not permitted for use in many bakery contexts; monitor against latest FSSAI notifications."
+  },
+  {
+    "ingredient": "sodium benzoate",
+    "status": "Monitor",
+    "notes": "Permitted only within category-specific limits."
+  },
+  {
+    "ingredient": "tartrazine",
+    "status": "Monitor",
+    "notes": "Permitted color with labeling requirements."
+  }
+]

@@ -1,0 +1,37 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String        @id @default(cuid())
+  email         String        @unique
+  name          String?
+  healthProfile String?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+  scans         ScanHistory[]
+}
+
+model ScanHistory {
+  id          String   @id @default(cuid())
+  userId      String?
+  barcode     String?
+  productName String
+  healthScore Int
+  riskLevel   String
+  scannedAt   DateTime @default(now())
+  user        User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model IngredientExplanationCache {
+  id          String   @id @default(cuid())
+  ingredient  String   @unique
+  explanation String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}

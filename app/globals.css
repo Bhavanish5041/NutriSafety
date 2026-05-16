@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 100 38% 97%;
+    --foreground: 155 80% 14%;
+    --card: 0 0% 100%;
+    --card-foreground: 155 80% 14%;
+    --primary: 132 70% 87%;
+    --primary-foreground: 155 80% 14%;
+    --secondary: 154 80% 14%;
+    --secondary-foreground: 120 44% 96%;
+    --muted: 124 60% 94%;
+    --muted-foreground: 152 28% 35%;
+    --accent: 131 29% 65%;
+    --accent-foreground: 155 80% 14%;
+    --border: 137 42% 86%;
+    --input: 137 42% 86%;
+    --ring: 132 70% 72%;
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 154 80% 8%;
+    --foreground: 120 44% 96%;
+    --card: 154 68% 12%;
+    --card-foreground: 120 44% 96%;
+    --primary: 132 56% 74%;
+    --primary-foreground: 154 80% 10%;
+    --secondary: 148 38% 24%;
+    --secondary-foreground: 120 44% 96%;
+    --muted: 154 48% 16%;
+    --muted-foreground: 132 25% 78%;
+    --accent: 131 29% 58%;
+    --accent-foreground: 120 44% 96%;
+    --border: 154 40% 22%;
+    --input: 154 40% 22%;
+    --ring: 132 56% 74%;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
+
+.glass-grid {
+  background-image:
+    linear-gradient(rgba(143, 188, 154, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(143, 188, 154, 0.12) 1px, transparent 1px);
+  background-size: 42px 42px;
+}

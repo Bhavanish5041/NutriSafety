@@ -1,0 +1,17 @@
+[
+  {
+    "ingredient": "titanium dioxide",
+    "status": "Restricted",
+    "notes": "No longer considered safe as a food additive in the EU."
+  },
+  {
+    "ingredient": "sodium nitrite",
+    "status": "Monitor",
+    "notes": "Permitted only within strict limits and food categories."
+  },
+  {
+    "ingredient": "aspartame",
+    "status": "Monitor",
+    "notes": "Allowed with acceptable daily intake guidance."
+  }
+]
