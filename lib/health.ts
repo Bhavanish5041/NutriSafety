@@ -54,7 +54,7 @@ export function localHealthRisk(product: Product, profile?: HealthProfile): Heal
   return {
     healthScore,
     riskLevel,
-    badges: [...new Set(badges)],
+    badges: Array.from(new Set(badges)),
     warnings: warnings.length ? warnings : ["No major personalized risk signals detected."],
     summary:
       riskLevel === "safe"

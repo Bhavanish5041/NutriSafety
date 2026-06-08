@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/providers";
@@ -9,7 +9,20 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "NutriShield AI",
   description: "AI-powered food compliance and personalized nutrition intelligence.",
-  manifest: "/manifest.json"
+  manifest: "/manifest.json",
+  applicationName: "NutriShield",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "NutriShield"
+  },
+  formatDetection: {
+    telephone: false
+  }
+};
+
+export const viewport: Viewport = {
+  themeColor: "#047857"
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

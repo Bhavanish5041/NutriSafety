@@ -42,7 +42,7 @@ async function checkOpenFda(ingredients: string[]) {
     watch.map(async (ingredient) => {
       try {
         const params = new URLSearchParams({
-          search: `description:"${ingredient}"`,
+          search: `product_description:"${ingredient}"`,
           limit: "1"
         });
         const response = await fetch(`https://api.fda.gov/food/enforcement.json?${params}`, {
