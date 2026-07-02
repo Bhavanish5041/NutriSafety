@@ -21,7 +21,7 @@ export default function LandingPage() {
           </div>
           <div className="space-y-5">
             <h1 className="max-w-4xl text-5xl font-black tracking-tight text-shield-forest dark:text-emerald-50 md:text-7xl">
-              NutriShield AI
+              NutriSafety
             </h1>
             <p className="max-w-2xl text-lg leading-8 text-emerald-950/70 dark:text-emerald-50/75">
               A startup-grade scanner that explains food labels, flags hidden harms, checks global compliance, and turns a health profile into practical product warnings.
@@ -83,7 +83,7 @@ export default function LandingPage() {
         </div>
       </section>
       <footer className="border-t border-emerald-100 py-8 text-center text-sm text-emerald-950/60 dark:border-emerald-900 dark:text-emerald-50/60">
-        NutriShield AI · Responsible food intelligence for modern consumers.
+        NutriSafety · Responsible food intelligence for modern consumers.
       </footer>
     </main>
   );

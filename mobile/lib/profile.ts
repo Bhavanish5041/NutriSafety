@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import type { HealthProfile } from './types';
 
-const PROFILE_KEY = '@nutrisafe_profile';
+const PROFILE_KEY = '@nutrisafety_profile';
 
 export async function getProfile(): Promise<HealthProfile> {
   try {

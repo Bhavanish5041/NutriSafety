@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import type { Product } from './types';
 
-const HISTORY_KEY = 'nutrisafe_scan_history';
+const HISTORY_KEY = 'nutrisafety_scan_history';
 const MAX_HISTORY = 50;
 
 export type ScanHistoryItem = {

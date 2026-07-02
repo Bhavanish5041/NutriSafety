@@ -26,7 +26,7 @@ export default function ScannerPage() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    setRecent(JSON.parse(localStorage.getItem("nutrishield-recent") ?? "[]"));
+    setRecent(JSON.parse(localStorage.getItem("nutrisafety-recent") ?? "[]"));
   }, []);
 
   const suggestions = useMemo(
@@ -37,7 +37,7 @@ export default function ScannerPage() {
   function saveRecent(value: string) {
     const next = [value, ...recent.filter((item) => item !== value)].slice(0, 6);
     setRecent(next);
-    localStorage.setItem("nutrishield-recent", JSON.stringify(next));
+    localStorage.setItem("nutrisafety-recent", JSON.stringify(next));
   }
 
   async function fetchBarcode(code = barcode) {

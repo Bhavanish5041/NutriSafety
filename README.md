@@ -1,6 +1,6 @@
-# NutriSafe
+# NutriSafety
 
-NutriSafe is a full-stack Next.js 14 food compliance and personalized nutrition intelligence app. It scans barcodes, searches Open Food Facts, checks sample FDA/FSSAI/EFSA compliance signals, stores health profiles and scan history in SQLite, and uses Groq for AI ingredient and risk explanations.
+NutriSafety is a full-stack Next.js 14 food compliance and personalized nutrition intelligence app. It scans barcodes, searches Open Food Facts, checks sample FDA/FSSAI/EFSA compliance signals, stores health profiles and scan history in SQLite, and uses Groq for AI ingredient and risk explanations.
 
 ## Stack
 

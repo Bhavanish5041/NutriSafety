@@ -39,7 +39,7 @@ export default function HomeScreen() {
         <View style={styles.logoBadge}>
           <FontAwesome name="shield" size={28} color="#fff" />
         </View>
-        <Text style={styles.heroTitle}>NutriSafe</Text>
+        <Text style={styles.heroTitle}>NutriSafety</Text>
         <Text style={styles.heroSubtitle}>
           Scan any food product to instantly analyze nutrition, check safety compliance, and get personalized health insights.
         </Text>
@@ -97,7 +97,7 @@ export default function HomeScreen() {
 
       {/* Footer */}
       <Text style={styles.footer}>
-        NutriSafe · Responsible food intelligence
+        NutriSafety · Responsible food intelligence
       </Text>
     </ScrollView>
   );

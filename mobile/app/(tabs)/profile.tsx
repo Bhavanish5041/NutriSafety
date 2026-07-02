@@ -49,7 +49,7 @@ export default function ProfileScreen() {
         </View>
         <Text style={styles.title}>Health Profile</Text>
         <Text style={styles.subtitle}>
-          Customize your profile. NutriSafe will automatically adjust product health scores and warnings based on your specific body and dietary needs.
+          Customize your profile. NutriSafety will automatically adjust product health scores and warnings based on your specific body and dietary needs.
         </Text>
       </View>
 

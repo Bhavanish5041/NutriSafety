@@ -7,14 +7,14 @@ import { AppNav } from "@/components/app-nav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NutriShield AI",
+  title: "NutriSafety",
   description: "AI-powered food compliance and personalized nutrition intelligence.",
   manifest: "/manifest.json",
-  applicationName: "NutriShield",
+  applicationName: "NutriSafety",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "NutriShield"
+    title: "NutriSafety"
   },
   formatDetection: {
     telephone: false

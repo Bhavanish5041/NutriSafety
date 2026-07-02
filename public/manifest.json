@@ -1,6 +1,6 @@
 {
-  "name": "NutriShield AI",
-  "short_name": "NutriShield",
+  "name": "NutriSafety",
+  "short_name": "NutriSafety",
   "description": "AI-powered food compliance and personalized nutrition advisor.",
   "id": "/scanner",
   "start_url": "/scanner",

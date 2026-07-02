@@ -30,7 +30,7 @@ export function AppNav() {
           <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-shield-pastel">
             <ShieldCheck className="h-5 w-5" />
           </span>
-          NutriShield AI
+          NutriSafety
         </Link>
         <div className="hidden items-center gap-1 md:flex">
           {links.map((item) => (

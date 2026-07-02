@@ -48,7 +48,7 @@ export default function ScannerScreen() {
         }}
       >
         <View style={styles.overlay}>
-          <Text style={styles.topText}>NutriSafe Scanner</Text>
+          <Text style={styles.topText}>NutriSafety Scanner</Text>
           <View style={styles.scanArea}>
             <View style={[styles.corner, styles.topLeft]} />
             <View style={[styles.corner, styles.topRight]} />

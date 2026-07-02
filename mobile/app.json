@@ -39,7 +39,7 @@
       [
         "expo-camera",
         {
-          "cameraPermission": "Allow NutriSafe to access your camera to scan product barcodes."
+          "cameraPermission": "Allow NutriSafety to access your camera to scan product barcodes."
         }
       ]
     ],

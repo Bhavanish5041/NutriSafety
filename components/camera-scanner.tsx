@@ -6,8 +6,8 @@ import { Camera, CameraOff, ImagePlus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScanAnimation } from "@/components/scan-animation";
 
-const CAMERA_READER_ID = "nutrishield-barcode-reader";
-const FILE_READER_ID = "nutrishield-barcode-file";
+const CAMERA_READER_ID = "nutrisafety-barcode-reader";
+const FILE_READER_ID = "nutrisafety-barcode-file";
 
 /* Only linear barcode formats - no QR codes */
 const FORMATS = [
